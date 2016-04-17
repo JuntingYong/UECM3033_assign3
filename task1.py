@@ -7,6 +7,16 @@ import sympy as sy
 def gausslegendre(f, a, b, n=20):
     ans = 0
     # Edit here to implement your code
+    
+    # legendre function is used to get the nodes and weights for n = 1 to 100
+    x,w = np.polynomial.legendre.leggauss(n)
+    
+    # interval [a,b] must be [-1,1], transformation of definite integral using Lagrange polynomial
+    y = a*((x-1)/(-1-1)) + b*((x+1)/(1+1))  
+    
+    # (b-a)/2 is the jacobian of the transformation
+    # jacobian * dot product of f(y) and w 
+    ans = ((b-a)/2) * np.dot(f(y),np.transpose(w))
 
     return ans
 
