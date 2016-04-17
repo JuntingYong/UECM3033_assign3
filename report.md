@@ -50,6 +50,7 @@ Implementation of codes: sol = spIn.odeint(ode_system,y_initial,t,args=(a,b))
 
 
 Put your graphs here and explain.
+![yt_0.1.png](yt_0.1.png)
 
 
 Is the system of ODE sensitive to initial condition? Explain.
