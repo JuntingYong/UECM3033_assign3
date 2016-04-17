@@ -51,10 +51,21 @@ Implementation of codes: sol = spIn.odeint(ode_system,y_initial,t,args=(a,b))
 
 Put your graphs here and explain.
 ![yt_0.1.png](yt_0.1.png)
+Graph of Prey y0 and Predator y1 against Year t is plotted. The initial condition is y0 = 0.1, y1 = 1.0. As the number of prey increase, the number of predator decreases.
+
+![yy_0.1.png](yy_0.1.png)
+Graph of Predator y1 against Prey y0 is plotted. The initial condition is y0 = 0.1, y1 = 1.0. Inverse relationship between y0 and y1 is observed.
+
+![yt_0.11.png](yt_0.11.png)
+Graph of Prey y0 and Predator y1 against Year t is plotted. The initial condition is y0 = 0.11, y1 = 1.0. As the number of prey increase, the number of predator decreases.
+
+![yy_0.11.png](yt_0.11.png)
+Graph of Predator y1 against Prey y0 is plotted. The initial condition is y0 = 0.11, y1 = 1.0. Inverse relationship between y0 and y1 is observed.
 
 
 Is the system of ODE sensitive to initial condition? Explain.
+When the initial value change from 0.1 to 0.11, there is no significance changes can be seen from the graph, only small changes. Thus, this system of ODE is not sensitive to the initial condition.
 
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 17/04/2016</sup>
