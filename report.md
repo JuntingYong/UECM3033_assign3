@@ -59,7 +59,7 @@ Graph of Predator y1 against Prey y0 is plotted. The initial condition is y0 = 0
 ![yt_0.11.png](yt_0.11.png)
 Graph of Prey y0 and Predator y1 against Year t is plotted. The initial condition is y0 = 0.11, y1 = 1.0. As the number of prey increase, the number of predator decreases.
 
-![yy_0.11.png](yt_0.11.png)
+![yy_0.11.png](yy_0.11.png)
 Graph of Predator y1 against Prey y0 is plotted. The initial condition is y0 = 0.11, y1 = 1.0. Inverse relationship between y0 and y1 is observed.
 
 
